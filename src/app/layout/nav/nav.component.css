@@ -2,7 +2,7 @@ body {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     background-color: #ffffff;
-    color: #46484a; }
+    color:#00c3ff; }
   
   a {
     color: #59a0d7; }
@@ -31,7 +31,7 @@ body {
   }
   
   p {
-    color: #696b6e;
+    color: #00c3ff;
     font-size: .1.5 rem; 
   }
   
@@ -39,7 +39,7 @@ body {
     display: block;
     width: 6rem;
     height: 0.3rem;
-    background-color: #dfe1e5;
+    background-color: #00c3ff;
     margin: 2rem auto; }
     
   .navbar-trans {
@@ -93,7 +93,7 @@ body {
       margin: 0 auto; 
       position: relative;
       width: 100%;
-      background-image: linear-gradient(to top,rgba(255, 132, 0,0.7), rgba(0, 0, 0, 0.0));
+      background-image: linear-gradient(to top,#00c3ff, rgba(0, 0, 0, 0.0));
     }
       
       .btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
@@ -111,20 +111,20 @@ body {
   
   
   .btn-secondary {
-    border-color: #696b6e;
-    background-color: #696b6e;
+    border-color: white;
+    background-color: white;
     color: #fff; }
   
   .btn-outline-secondary, .btn-outline-secondary:visited {
-    color: #696b6e;
-    border-color: #696b6e;
+    color: white;
+    border-color: white;
     background: none; }
   
   
   .btn-white {
     border-color: #fff;
     background-color: #fff;
-    color: #46484a; }
+    color: white; }
   
 
   
@@ -156,7 +156,7 @@ a {
 a:hover {
   opacity: 0.5;
   cursor: pointer;
-  color: orange !important;
+  color: white !important;
 }
 a:visited {
   color: inherit;
@@ -186,7 +186,7 @@ a:visited {
 .nav-container.solid-nav {
   top: 0px;
   background: none;
-  color: gray !important;
+  color: white!important;
   background-color: white;
   transition: background-color 0.2s linear;
 }
@@ -194,7 +194,7 @@ a:visited {
   color: gray !important;
 }
 .nav-container.solid-nav a:hover {
-  color: #ff8400 !important;
+  color: white !important;
 }
 .nav-container .nav-row {
   max-width: 1200px;
@@ -244,4 +244,6 @@ a:visited {
     background-color: rgba(0,0,0,0.2); 
     z-index: 0; 
 }
-
+.nav-controls{
+  float: left;
+}
