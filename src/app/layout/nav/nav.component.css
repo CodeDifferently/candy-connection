@@ -2,10 +2,10 @@ body {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     background-color: #ffffff;
-    color:#00c3ff; }
+    color:purple; }
   
   a {
-    color: #59a0d7; }
+    background-image: linear-gradient(to bottom right,lightpink, lightblue); }
   
   h1 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -39,7 +39,7 @@ body {
     display: block;
     width: 6rem;
     height: 0.3rem;
-    background-color: #00c3ff;
+    background-image: linear-gradient(to bottom right, purple, yellow);
     margin: 2rem auto; }
     
   .navbar-trans {
