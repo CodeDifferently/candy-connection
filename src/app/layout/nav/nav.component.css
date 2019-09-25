@@ -5,7 +5,7 @@ body {
     color:purple; }
   
   a {
-    background-image: linear-gradient(to bottom right,lightpink, lightblue); }
+    background-image: linear-gradient(to bottom right,white, lightpink); }
   
   h1 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -93,7 +93,7 @@ body {
       margin: 0 auto; 
       position: relative;
       width: 100%;
-      background-image: linear-gradient(to top,lightblue, lightpink);
+      background-image: linear-gradient(to top,white, lightpink);
     }
       
       .btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
