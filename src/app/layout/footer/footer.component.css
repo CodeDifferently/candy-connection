@@ -47,9 +47,9 @@ footer a {
 }
 
 footer a:hover, footer a:focus {
-  color: #00c3ff;
+  color: lightblue;
   text-decoration:none;
-  border-bottom:1px dotted #00c3ff;
+  border-bottom:1px dotted lightblue;
 }
 
 footer .form-control {

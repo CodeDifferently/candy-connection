@@ -93,7 +93,7 @@ body {
       margin: 0 auto; 
       position: relative;
       width: 100%;
-      background-image: linear-gradient(to top,#00c3ff, rgba(0, 0, 0, 0.0));
+      background-image: linear-gradient(to top,lightblue, lightpink);
     }
       
       .btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
@@ -246,4 +246,12 @@ a:visited {
 }
 .nav-controls{
   float: left;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 80%;
+   
 }
