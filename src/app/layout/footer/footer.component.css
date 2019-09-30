@@ -37,13 +37,13 @@ footer {
   padding-top: 30px;
   background-image: linear-gradient(to bottom right,lightpink, lightblue);
   /* color: #ff8400; */
-  color: white
+  color: black;
 }
 
 footer a {
   text-decoration:none;
   /* color: #ff8400; */
-  color: white
+  color: black;
 }
 
 footer a:hover, footer a:focus {
