@@ -4,8 +4,8 @@ body {
     background-color: #ffffff;
     color:purple; }
   
-  a {
-    background-image: linear-gradient(to bottom right,lightpink, lightblue); }
+  
+  
   
   h1 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -70,7 +70,7 @@ li.nav-item .btn-white {
     margin: 0 auto; 
     position: relative;
     width: 100%;
-    background-image: linear-gradient(to top,lightblue, lightpink);
+    background-image: linear-gradient(to top, lightpink, white);
   }
     
     .cover h1 {
@@ -96,7 +96,7 @@ li.nav-item .btn-white {
       margin: 0 auto; 
       position: relative;
       width: 100%;
-      background-image: linear-gradient(to top,lightblur, rgba(0, 0, 0, 0.0));
+      background-image: linear-gradient(to top,white, rgba(0, 0, 0, 0.0));
     }
       
       .btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
@@ -200,7 +200,7 @@ z-index: 3;
 justify-items: center
 } */
 .nav-container {
-background: linear-gradient(to bottom,rgb(255, 168, 181), rgb(130, 183, 201) 100%);
+background: linear-gradient(to bottom,rgb(255, 168, 181), white 100%);
 height: 58px;
 width: 100%;
 position: fixed;
