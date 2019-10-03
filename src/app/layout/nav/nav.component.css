@@ -5,12 +5,14 @@ body {
     color:purple; }
   
   a {
-    background-image: linear-gradient(to bottom right,white, lightpink); }
+    background-image: linear-gradient(to bottom right,lightpink, lightblue); }
   
   h1 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 4rem;
-    font-weight: 600; }
+    font-weight: 600; 
+
+      }
   
   h2 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -93,7 +95,7 @@ body {
       margin: 0 auto; 
       position: relative;
       width: 100%;
-      background-image: linear-gradient(to top,white, lightpink);
+      background-image: linear-gradient(to top,lightblur, rgba(0, 0, 0, 0.0));
     }
       
       .btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
@@ -233,25 +235,10 @@ a:visited {
   margin: 0 auto;
 }
 /* ---- Overlay CSS ---*/
-#overlay {
-    position: absolute;
-    width: 100%; 
-    height: 100%; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.2); 
-    z-index: 0; 
-}
-.nav-controls{
-  float: left;
-}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 80%;
-   
 }
