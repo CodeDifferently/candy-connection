@@ -35,7 +35,7 @@ body {
 -------------------------------------------------- */
 footer {
   padding-top: 30px;
-  background-image: linear-gradient(to bottom right,lightpink, lightblue);
+  background-image: linear-gradient(to bottom right,lightpink, white);
   /* color: #ff8400; */
   color: black;
 }
@@ -47,7 +47,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus {
-  color: lightblue;
+  color: white;
   text-decoration:none;
   border-bottom:1px dotted lightblue;
 }
